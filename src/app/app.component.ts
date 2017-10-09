@@ -1,8 +1,8 @@
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { Observable} from 'rxjs/Observable';
-import { MdPaginator} from '@angular/material';
-import { MdSort} from '@angular/material';
+import { Observable } from 'rxjs/Observable';
+import { MdPaginator } from '@angular/material';
+import { MdSort } from '@angular/material';
 import { TableDataSource } from './material-components-folder/table-data-source.component';
 import { PeopleService } from './services/people.service';
 import { Subject } from 'rxjs/Subject';

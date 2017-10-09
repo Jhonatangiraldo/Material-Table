@@ -76,7 +76,7 @@ export class TableDataSource extends DataSource<any> {
 
         return (valueA < valueB ? -1 : 1) * (this._sort.direction == 'asc' ? 1 : -1);
       });
-    }   
+    }
 
     disconnect() {}
   }
