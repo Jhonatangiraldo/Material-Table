@@ -47,7 +47,8 @@ export class AppComponent {
   }
 
   addUser() {
-    let user = { firstName: 'Ana', lastName: 'Anka', age: 1, };
+    let age = Math.floor((Math.random() * 50) + 1);
+    let user = { firstName: 'Ana', lastName: 'Anka', age: age, city: 'Anonymous' };
     this.dataSource.dataTable.data.unshift(user);
     this.renderData();
   }
